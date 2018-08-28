@@ -1,0 +1,18 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="80dp"
+    android:previewImage="@drawable/holyday_preview_img"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/initial_widget_holyday_layout"
+    android:resizeMode="horizontal|vertical"
+
+    android:widgetCategory="home_screen">
+</appwidget-provider>
+
+<!--
+1	40dp
+2	110dp
+3	180dp
+4	250dp
+…	…
+n	70 × n − 30  -->

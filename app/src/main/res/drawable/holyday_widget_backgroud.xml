@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+           <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:startColor="#bbFAA528"
+                android:centerColor="#bbFAA528"
+                android:endColor="#bbFAA528"></gradient>
+           </shape>
+    </item>
+    FFFAA528
+   <!-- <item>
+<gradient
+                android:startColor="#bbb7921e"
+                android:centerColor="#bbb7921e"
+                android:endColor="#bb8f6c01"></gradient>
+
+ <gradient
+                android:startColor="#bb696969"
+                android:centerColor="#bb696969"
+                android:endColor="#696969"
+                android:angle="90"
+                android:dither="true"
+                />
+
+   fedf67  b7921e
+        <shape
+            android:shape="rectangle">
+            <stroke android:width="2dp" android:color="#5faac2"/>
+<gradient
+                android:angle="90"
+                android:endColor="#FFFAA528"
+                android:startColor="#FFFAA528" />
+        </shape>
+    </item>-->
+
+</layer-list><!--
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+
+    style="@style/Widget.AppCompat.Button">
+
+    <stroke
+
+        android:dashGap="20dp"
+        android:dashWidth="40dp"
+        android:radius = "50dp"
+        android:width="2dp"
+        android:color="#99FFFFFF" />
+
+    &lt;!&ndash;     android:endColor="#8f6c00"
+
+                android:startColor="#dfb841"
+&ndash;&gt;
+    <gradient
+        android:angle="90"
+        android:endColor="#FFFAA528"
+        android:startColor="#FFFAA528" />
+
+
+   &lt;!&ndash; <corners
+        android:bottomLeftRadius="7dp"
+        android:bottomRightRadius="7dp"
+        android:topLeftRadius="7dp"
+        android:topRightRadius="7dp" />&ndash;&gt;
+
+
+</shape>-->

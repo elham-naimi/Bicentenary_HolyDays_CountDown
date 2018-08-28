@@ -1,0 +1,18 @@
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" >
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="3dp"
+   android:layout_margin="5dp"
+    android:text="Upcoming Bahá'í Holy Days"
+    android:textSize="23sp"
+    android:textColor="@color/highlightcolor"
+    android:id="@+id/listheadertitle"
+
+    android:gravity="center_horizontal"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/scaled500_500_translucent_star"/>
+</LinearLayout>

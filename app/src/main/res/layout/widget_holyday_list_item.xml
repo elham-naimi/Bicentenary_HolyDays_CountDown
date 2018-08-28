@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:id="@+id/holyday_widget_layout"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+       android:gravity="center_vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/imgholydayname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/imgwhen"
+                android:layout_below="@id/imgholydayname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_count"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgholydayname"
+
+        android:gravity="center">
+    <TextView
+        android:id="@+id/imgcount"
+        android:textSize="38sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        ></TextView>
+
+    <TextView
+          android:id="@+id/imgdaysleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgcount"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:includeFontPadding="false"
+
+        ></TextView>
+    </RelativeLayout>
+
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtloading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Loading.."
+            android:gravity="center"/>
+    </RelativeLayout>-->
+</LinearLayout>

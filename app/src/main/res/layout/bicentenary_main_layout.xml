@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bicentenary_layout_backgroud"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context="com.elna.elhamnaimi.bicentenary.com.elna.bicen.bicentenary.ui.MainActivity"
+    android:orientation="vertical"
+     android:paddingTop="20dp"
+    android:padding="12dp"
+   >
+
+      <TextView android:id="@+id/title1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="BICENTENARY OF THE BIRTH OF"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView android:id="@+id/title4"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="The Báb"
+        android:textColor="#ab0851"
+        android:textSize="40sp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/scaled500_500_translucent_star"/>
+    <!--<TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="on"
+        android:gravity="center_horizontal"
+         android:fontFamily="cursive"
+        android:textSize="25sp"/>
+-->
+    <TextView
+        android:id="@+id/txtdate"
+        app:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:text=""/>
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="in"
+            android:fontFamily="cursive"
+            android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/debugtext"
+            android:gravity="center_horizontal"
+            app:fontFamily="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textStyle="bold"
+
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/daysleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" days"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+             android:fontFamily="serif"
+             >
+
+        </TextView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/note"
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Bicentenary days counter is a widget that can be placed on the home screen for convenience."
+            android:gravity="center_horizontal"
+             />
+        <TextView
+            android:id="@+id/demotext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Please tap here for a demo."
+            app:fontFamily="sans-serif" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

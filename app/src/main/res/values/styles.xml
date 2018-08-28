@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme.Theme.AppCompat.Light.DarkActionBar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+
+    </style>
+
+
+    <style name="MyActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/teal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--<style name="mySpinnerStyle" parent="Widget.AppCompat.Spinner">
+     &lt;!&ndash;   <item name="android:background">@drawable/spinner_select</item>&ndash;&gt;
+        <item name="android:divider">@color/gray</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:textColor">@color/gray</item>
+
+       &lt;!&ndash; <item name="android:textSize">10dp</item>
+        <item name="android:dropDownSelector">@color/gray</item>&ndash;&gt;
+
+    </style>-->
+
+    <style name="spinner_style">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingRight">18dp</item>
+    </style>
+
+    <style name="button_text" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="title_text_view" parent="android:Widget.TextView">
+        <item name="android:paddingTop">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_horizontal_margin</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="subtitle_text_view" parent="android:Widget.TextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
+

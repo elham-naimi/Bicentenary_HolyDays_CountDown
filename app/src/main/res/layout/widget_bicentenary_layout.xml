@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widget_bicentenary_layout">
+
+   <ImageView
+       android:id="@+id/backgroundImage"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/widget_bg_800_800"
+       android:layout_gravity="center"
+       />
+
+   <RelativeLayout
+       android:layout_gravity ="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="13dp"
+       >
+
+      <TextView
+          android:layout_centerInParent="true"
+          android:id="@+id/count"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:gravity="center_horizontal"
+          android:text="200"
+          android:textColor="@color/white"
+          android:textSize="39sp"
+          android:fontFamily="sans-serif"></TextView>
+
+
+     <!-- <TextView
+            android:gravity="center"
+               android:layout_below="@id/count"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fontFamily="cursive"
+          android:text="days left"
+          android:textColor="@color/white"
+          android:textSize="15sp"
+          android:textStyle="italic" />
+-->
+      <!-- all your views -->
+
+   </RelativeLayout>
+
+</FrameLayout>
+
+
+
+
+    <!--
+
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+       >
+
+       <ImageView
+           android:id="@+id/backgroundImage"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:src="@drawable/yb_icon_nine_pointed_star"
+           android:scaleType="fitXY"/>
+       <TextView
+           android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="551"
+           android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:textSize="25sp"
+
+
+            />
+
+       <TextView
+           android:gravity="center_horizontal"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="days left"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+    -->

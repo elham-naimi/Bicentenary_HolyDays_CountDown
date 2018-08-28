@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bicentenary_layout_backgroud"
+    android:padding="3dp"
+    >
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:gravity="center_vertical"
+
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text_feast_name"
+        android:fontFamily="serif"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:textSize="15sp"
+        android:textColor="#FFFAA528"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_feast_month_date"
+        android:layout_below="@id/text_feast_name"
+        android:fontFamily="serif"
+        android:textColor="#FFFAA528"
+        android:textSize="12sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_count"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+
+
+        android:gravity="center">
+        <TextView
+            android:id="@+id/imgcount"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:textColor="#FFFAA528"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/imgdaysleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgcount"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:includeFontPadding="false"
+            android:text="days left"
+            android:textColor="#FFFAA528"
+            ></TextView>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
