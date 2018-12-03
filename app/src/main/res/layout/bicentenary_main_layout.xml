@@ -13,25 +13,32 @@
      tools:context="com.elna.elhamnaimi.bicentenary.com.elna.bicen.bicentenary.ui.MainActivity"
     android:orientation="vertical"
      android:paddingTop="20dp"
-    android:padding="12dp"
-   >
+    android:padding="12dp">
 
       <TextView android:id="@+id/title1"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="BICENTENARY OF THE BIRTH OF"
         android:textStyle="bold"
         android:textSize="20sp"/>
-    <TextView android:id="@+id/title4"
 
+    <TextView android:id="@+id/title4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="The Báb"
         android:textColor="#ab0851"
-        android:textSize="40sp"/>
+        android:textSize="44sp"/>
+
+        <TextView android:id="@+id/titleyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="1819 - 2019"
+            android:textColor="#ab0851"
+            android:textSize="20sp"/>
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -39,7 +46,7 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/scaled500_500_translucent_star"/>
     <!--<TextView
-        android:id="@+id/title2"
+        android:id="@+id/title2"adb
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="on"
@@ -47,33 +54,17 @@
          android:fontFamily="cursive"
         android:textSize="25sp"/>
 -->
-    <TextView
-        android:id="@+id/txtdate"
-        app:fontFamily="sans-serif"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="7dp"
-        android:textSize="30sp"
-        android:gravity="center_horizontal"
-        android:text=""/>
-        <TextView
-            android:id="@+id/title3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="in"
-            android:fontFamily="cursive"
-            android:textSize="25sp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp">
 
         <TextView
             android:id="@+id/debugtext"
             android:gravity="center_horizontal"
-            app:fontFamily="serif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="50sp"
@@ -85,6 +76,14 @@
         </TextView>
 
         <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="days left"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+       <!-- <TextView
             android:id="@+id/daysleft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -93,38 +92,43 @@
             android:textColor="@color/white"
             android:textSize="30dp"
              android:fontFamily="serif"
-             >
+             >-->
 
-        </TextView>
     </LinearLayout>
 
 
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal|bottom"
-        android:orientation="vertical"
-        >
         <TextView
-            android:id="@+id/note"
-                android:layout_width="wrap_content"
+            android:id="@+id/txtdate1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="19dp"
-            android:text="Bicentenary days counter is a widget that can be placed on the home screen for convenience."
+            android:paddingTop="7dp"
+            android:textSize="23sp"
             android:gravity="center_horizontal"
-             />
+            android:text=""/>
         <TextView
-            android:id="@+id/demotext"
-            android:layout_width="wrap_content"
+            android:id="@+id/txtdate2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="19dp"
-            android:text="Please tap here for a demo."
-            app:fontFamily="sans-serif" />
-
-
-
-    </LinearLayout>
+            android:paddingTop="7dp"
+            android:textSize="21sp"
+            android:gravity="center_horizontal"
+            android:text=""/>
+       <TextView
+            android:id="@+id/txtdate3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text=""/>
+        <TextView
+            android:id="@+id/txtdate4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp"
+            android:textSize="21sp"
+            android:gravity="center_horizontal"
+            android:text=""/>
 
 </LinearLayout>
 </ScrollView>

@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/elhamnaimi/AndroidStudioProjects/Bicentenary3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/Users/elhamnaimi/AndroidStudioProjects/Bahai_HolyDays_CountDown/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/elhamnaimi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7e40c3449193967cbb80d8796d73ac34/res/values-v14/values-v14.xml",
+                    "source": "/Users/elhamnaimi/AndroidStudioProjects/Bahai_HolyDays_CountDown/app/src/main/res/values-v14/dimens.xml",
+                    "from": {
+                        "startLines": "2,3,12,14,11,6,8,9,13,7,10,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "88,146,472,562,437,247,323,364,517,286,399,202",
+                        "endColumns": "57,55,44,41,34,38,40,34,44,36,37,43",
+                        "endOffsets": "141,197,512,599,467,281,359,394,557,318,432,241"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,214,256,291,330,371,406,451,488,526",
+                        "endColumns": "57,55,44,41,34,38,40,34,44,36,37,43",
+                        "endOffsets": "108,164,209,251,286,325,366,401,446,483,521,565"
+                    }
+                },
+                {
+                    "source": "/Users/elhamnaimi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1b61d44dce99bf9c79221eca81cc7864/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15",
                         "startColumns": "4,4,4,4,4",
@@ -20,23 +37,6 @@
                         "endLines": "18,19,20,26,32",
                         "endColumns": "12,70,82,12,12",
                         "endOffsets": "841,912,995,1405,1827"
-                    }
-                },
-                {
-                    "source": "/Users/elhamnaimi/AndroidStudioProjects/Bicentenary3/app/src/main/res/values-v14/dimens.xml",
-                    "from": {
-                        "startLines": "2,3,12,14,11,6,8,9,13,7,10,4",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "88,146,472,562,437,247,323,364,517,286,399,202",
-                        "endColumns": "57,55,44,41,34,38,40,34,44,36,37,43",
-                        "endOffsets": "141,197,512,599,467,281,359,394,557,318,432,241"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,113,169,214,256,291,330,371,406,451,488,526",
-                        "endColumns": "57,55,44,41,34,38,40,34,44,36,37,43",
-                        "endOffsets": "108,164,209,251,286,325,366,401,446,483,521,565"
                     }
                 }
             ]

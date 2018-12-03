@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/elhamnaimi/AndroidStudioProjects/Bicentenary3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
+            "outputFile": "/Users/elhamnaimi/AndroidStudioProjects/Bahai_HolyDays_CountDown/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
             "map": [
                 {
-                    "source": "/Users/elhamnaimi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7e40c3449193967cbb80d8796d73ac34/res/values-v12/values-v12.xml",
+                    "source": "/Users/elhamnaimi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1b61d44dce99bf9c79221eca81cc7864/res/values-v12/values-v12.xml",
                     "from": {
                         "startLines": "2,5,8,9",
                         "startColumns": "4,4,4,4",

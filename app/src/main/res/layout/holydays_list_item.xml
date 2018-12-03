@@ -6,20 +6,22 @@
     android:background="@drawable/bicentenary_layout_backgroud"
     android:padding="3dp"
     >
+
+
     <RelativeLayout
         android:layout_width="0dp"
-        android:layout_weight="4"
+        android:layout_weight="5"
         android:gravity="center_vertical"
-
+        android:layout_marginLeft="4dp"
         android:layout_height="match_parent">
     <TextView
         android:id="@+id/text_feast_name"
         android:fontFamily="serif"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:layout_width="match_parent"
-        android:textSize="15sp"
+        android:textSize="16sp"
         android:textColor="#FFFAA528"
-        android:layout_centerHorizontal="true"
+
         android:layout_height="wrap_content"/>
 
     <TextView
@@ -27,7 +29,7 @@
         android:layout_below="@id/text_feast_name"
         android:fontFamily="serif"
         android:textColor="#FFFAA528"
-        android:textSize="12sp"
+        android:textSize="21sp"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         android:layout_width="wrap_content"
         android:gravity="center_horizontal"
@@ -38,19 +40,16 @@
     <RelativeLayout
         android:id="@+id/layout_count"
         android:layout_width="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:layout_height="match_parent"
-
-
         android:gravity="center">
         <TextView
             android:id="@+id/imgcount"
-            android:textSize="20sp"
+            android:textSize="38sp"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:includeFontPadding="false"
-            android:textColor="#FFFAA528"
             ></TextView>
 
         <TextView
@@ -62,7 +61,6 @@
             android:textSize="15sp"
             android:includeFontPadding="false"
             android:text="days left"
-            android:textColor="#FFFAA528"
             ></TextView>
     </RelativeLayout>
 

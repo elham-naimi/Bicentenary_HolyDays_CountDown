@@ -1,9 +1,13 @@
 <resources>
-    <string name="app_name">Bicentenary Count Down</string>
-    <string name="title_activity_main">Bicentenary Count Down</string>
+    <string name="app_name">Bahá\'í Holy Days</string>
+    <string name="title_activity_main">Bahá\'í Holy Days</string>
     <string name="title_activity_year_list_view">YearListView</string>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="title_activity_holy_day_list">HolyDayListActivity</string>
+    <string name="title_activity_holy_day_list">Bahá\'í Holy Days </string>
+    <string name="holyday_widget_title">Holy days</string>
+    <string name="bicentenary_widget_title">Bicentenary</string>
+    <string name="channel_name">channel_name</string>
+    <string name="channel_description">channel_description</string>
 </resources>

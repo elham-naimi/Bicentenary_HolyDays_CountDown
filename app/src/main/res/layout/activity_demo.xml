@@ -7,56 +7,79 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools">
 <LinearLayout   android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.elna.bicentenary.bicentenary.ui.DemoActivity"
+    tools:context="com.elna.holyday.bicentenary.ui.DemoActivity"
     android:orientation="vertical"
-    android:layout_margin="9dp">
+    android:layout_marginLeft="9dp"
+    android:layout_marginRight="9dp"
+    android:layout_marginTop="2dp"
+   >
 
     <TextView
         android:layout_width="match_parent"
+        android:layout_margin="2dp"
         android:layout_height="wrap_content"
         android:text="1. Long press a blank available space on your home screen."
-        android:textSize="16sp" />
+        android:textSize="18sp" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:src="@drawable/demo1"/>
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/demo_1"/>
     <TextView
         android:layout_width="match_parent"
+        android:layout_margin="2dp"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:text="2. Touch the Widgets option from the menu that pops up. "/>
+        android:text="2. Tap the Widgets option from the menu that pops up. "/>
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/demo2"/>
+        android:layout_height="150dp"
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/demo_2"/>
     <TextView
         android:layout_width="match_parent"
+        android:layout_margin="2dp"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:text="3. Once you find the Bicentenary widget, hold your finger on it."/>
+        android:text="3. Scroll the widgets untill you find Baha'i Holy Days Widgets: Bicentenary and Holy Days. Press your finger on one of the widgets and hold on it."/>
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/demo3"/>
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/preview_demo"/>
     <TextView
         android:layout_width="match_parent"
+        android:layout_margin="2dp"
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:text="4. While still holding your finger down, drag the widget to the space on the home screen where you would like to place it."/>
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/demo5"/>
+        android:layout_height="200dp"
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/demo_5"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
+        android:layout_margin="2dp"
         android:text="5. Drop the widget. The widget will be added to your home screen. "/>
     <ImageView
         android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:src="@drawable/demo_6"/>
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/demo6"/>
+        android:textSize="16sp"
+        android:layout_margin="2dp"
+        android:text="6. Repeat the above steps to install another widget. "/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -68,7 +91,10 @@ xmlns:tools="http://schemas.android.com/tools">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="9dp"
-          android:text="Ok" />
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:text="OK" />
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

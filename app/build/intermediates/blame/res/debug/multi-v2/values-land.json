@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/elhamnaimi/AndroidStudioProjects/Bicentenary3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/elhamnaimi/AndroidStudioProjects/Bahai_HolyDays_CountDown/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/elhamnaimi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7e40c3449193967cbb80d8796d73ac34/res/values-land/values-land.xml",
+                    "source": "/Users/elhamnaimi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/1b61d44dce99bf9c79221eca81cc7864/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/elhamnaimi/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/a709d0ecee57d7fda4d07f713fab6ab9/res/values-land/values-land.xml",
+                    "source": "/Users/elhamnaimi/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/62e86865bd612ddd8f6cbf242b176b40/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
